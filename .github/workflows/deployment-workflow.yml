@@ -8,10 +8,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run the action
-        id: Hello
-        uses: ./
-        with:
-          myInput: 'Chad Crowell'
+      id: Hello
+      uses: ./
+      with:
+        myInput: 'Chad Crowell'
     - name: output
       run: |
         echo ${{steps.hello.outputs.memory }}
