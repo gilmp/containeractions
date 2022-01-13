@@ -7,10 +7,10 @@ Inputs:
     required:  true
     default: "Guru Fun"
 
-  outputs:
-    myOutputs:
-      description: 'total memory'
+outputs:
+   myOutputs:
+     description: 'total memory'
 
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
