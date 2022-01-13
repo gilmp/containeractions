@@ -1,0 +1,16 @@
+name: "my first container using github actions"
+description: "Cloud Guru Tests"
+author: "gilmp"
+Inputs:
+  myInputs:
+    description: "Greeting to find Usage"
+    required:  true
+    default: "Guru Fun"
+
+  outputs:
+    myOutputs:
+      description: 'total memory'
+
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
